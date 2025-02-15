@@ -1,0 +1,62 @@
+@media screen and (max-width:1200px) {
+}
+
+@media screen and (max-width:900px) {
+  /* HERO */
+  /* .hero-container {
+    height: auto;
+    padding: 8rem 0;
+  } */
+
+  .hero-container h1 {
+    font-size: 2.5rem;
+  }
+
+  /* ABOUT ME */
+  .about-me-container {
+    padding: 4rem 0;
+  }
+
+  .subtitle {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+  }
+  .about-me-text {
+    width: 90%;
+    font-size: 1rem;
+  }
+
+  /* PROJECTS */
+  .projects-container {
+    padding: 4rem 0;
+  }
+
+  .projects-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-container {
+    width: 95%;
+  }
+
+  .subsubtitle {
+    font-size: 1.2rem;
+  }
+
+  /* SKILLS */
+  .skills-container {
+    padding: 4rem 0;
+  }
+
+  .skills-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skill-container {
+    width: 95%;
+    padding: 1.5rem;
+  }
+
+}
