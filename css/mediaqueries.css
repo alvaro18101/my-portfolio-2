@@ -3,13 +3,8 @@
 
 @media screen and (max-width:900px) {
   /* HERO */
-  /* .hero-container {
-    height: auto;
-    padding: 8rem 0;
-  } */
-
   .hero-container h1 {
-    font-size: 2.5rem;
+    /* font-size: 2.5rem; */
   }
 
   /* ABOUT ME */
@@ -19,7 +14,7 @@
 
   .subtitle {
     margin-bottom: 1.5rem;
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
   }
   .about-me-text {
     width: 90%;
@@ -38,10 +33,11 @@
 
   .project-container {
     width: 95%;
+    padding: 0.5rem;
   }
 
   .subsubtitle {
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
   }
 
   /* SKILLS */
@@ -59,4 +55,15 @@
     padding: 1.5rem;
   }
 
+}
+
+
+@media (hover: none) {
+  .hero-container button:hover {
+    opacity: 1;
+  }
+  
+  .project-container:hover {
+    box-shadow: 0 1px 3px 0 #7A7D8293;
+  }
 }
