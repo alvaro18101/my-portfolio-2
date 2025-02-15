@@ -4,7 +4,7 @@
 @media screen and (max-width:900px) {
   /* HERO */
   .hero-container h1 {
-    /* font-size: 2.5rem; */
+    font-size: 2.5rem;
   }
 
   /* ABOUT ME */
@@ -13,12 +13,10 @@
   }
 
   .subtitle {
-    margin-bottom: 1.5rem;
-    /* font-size: 1.5rem; */
+    margin-bottom: 1.8rem;
   }
   .about-me-text {
     width: 90%;
-    font-size: 1rem;
   }
 
   /* PROJECTS */
@@ -29,15 +27,20 @@
   .projects-list {
     flex-direction: column;
     align-items: center;
+    gap: 1rem;
   }
 
   .project-container {
-    width: 95%;
-    padding: 0.5rem;
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .project-details {
+    margin-top: 0.8rem;
   }
 
   .subsubtitle {
-    /* font-size: 1.2rem; */
+    margin-bottom: 0.3rem;
   }
 
   /* SKILLS */
@@ -51,8 +54,12 @@
   }
 
   .skill-container {
-    width: 95%;
-    padding: 1.5rem;
+    width: 100%;
+    padding: 2rem;
+  }
+
+  .skill-title {
+    margin-bottom: 1rem;
   }
 
 }
