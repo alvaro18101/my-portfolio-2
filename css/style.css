@@ -99,6 +99,14 @@ body {
   color: #4B5563;
 }
 
+.networks-icons-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
 
 /* PROJECTS */
 
