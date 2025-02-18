@@ -82,4 +82,8 @@
   .project-container:hover {
     box-shadow: 0 1px 3px 0 #7A7D8293;
   }
+
+  .form-button:hover {
+    opacity: 1;
+  }
 }
