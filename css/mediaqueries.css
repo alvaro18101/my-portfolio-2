@@ -67,6 +67,15 @@
     margin-bottom: 1rem;
   }
 
+  /* CONTACT ME */
+  .contact-me-container {
+    padding: 4rem 0;
+  }
+
+  .contact-me-form {
+    width: 90%;
+  }
+
 }
 
 
